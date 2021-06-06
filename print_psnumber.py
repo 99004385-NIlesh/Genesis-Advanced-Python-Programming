@@ -5,6 +5,7 @@ import active_excel
 SHEET = active_excel.SHEET
 
 def print_psnumber_list():
+    """ This function return the list of all the PS Numbers """
     psnumber_list = []
     for i in range(2, SHEET.max_row+1):
         psnumber = SHEET.cell(row=i, column=1)
