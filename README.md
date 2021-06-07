@@ -21,8 +21,12 @@ Also,if user enters wrong details,we need to handle that with Exception Handling
 
 The following modules are created for this:-
 
-* main => Main File of the Project 
-* active_excel => Opens the Excel File and makes it active
-* print_psnumber => Prints all the PS Numbers present in the Excel File
-* print_sheets => 
+* main : Main File of the Project 
+* active_excel : Opens the Excel File and makes it active
+* print_psnumber : Prints all the PS Numbers present in the Excel File
+* sheets : Prints the name of all the Sheets in the Excel File
+* input_details : Takes input from the user
+* testfile : Testing the modules using Pytest
+
+After that,an object is created with the Required PS Number and Required Sheet as member variables and new Excel file is created with the required data.
 
