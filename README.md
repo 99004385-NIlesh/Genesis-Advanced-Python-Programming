@@ -21,5 +21,8 @@ Also,if user enters wrong details,we need to handle that with Exception Handling
 
 The following modules are created for this:-
 
-*
+* main => Main File of the Project 
+* active_excel => Opens the Excel File and makes it active
+* print_psnumber => Prints all the PS Numbers present in the Excel File
+* print_sheets => 
 
