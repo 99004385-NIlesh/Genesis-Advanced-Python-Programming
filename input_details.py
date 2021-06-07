@@ -1,5 +1,5 @@
 """
-This module will open the Excel File and makes it active
+This module will take the input from the user
 """
 
 def input_details():
